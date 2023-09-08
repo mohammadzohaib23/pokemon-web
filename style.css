@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden scroll;
+}
+.navbar{
+    background-color: grey;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.nav-list, .nav-list-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nav-li, .nav-li-2{
+    list-style-type: none;
+}
+.navbar-2{
+    background-color: whitesmoke;
+    padding: 8px;
+    
+
+}
+.nav-li-2 img{
+    height: 40px;
+    
+}
+.bg{
+    background-image: url(./images/background.jpg);
+    
+   
+}
+.img1{
+   
+    
+    width:67%;
+    
+}
+.img1 img{
+width: 100%;
+}
+
+.footer > div{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+    height: 70px;
+    width: 100%;
+}
+
+
+.img2{
+    display: flex;
+    gap: 0px;
+}
+.img2 img{
+    width: 50%;
+}
+.img3{
+    width: 33%;
+}
+
+.img3 img{
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1100px;
+    margin: auto;
+}
+@media only screen and (max-width: 720px) {
+    .nav-list, .nav-list-2{
+        gap: 20px;
+    }
+    .nav-list img{
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .nav-list, .nav-list-2{
+        gap: 20px;
+    }
+    .nav-list img{
+        width: 100px;
+    }
+}
